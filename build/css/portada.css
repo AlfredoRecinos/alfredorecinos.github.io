@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+body{
+   background-color: #202037;
+}
+
+.container{
+  width: 100%;
+  min-width: 320px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ 
+.portada {
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Bakbak One', cursive;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .typed-cursor{
+    display: none !important;
+  }
+  
+    .img-fluid {
+    max-width: 100%;
+    height: auto;
+    }
+
+  .portada .logo_portada {
+    opacity: 0;
+    animation: zoomIn 2s ease forwards, floatImage 4s ease-in-out infinite;
+  }
+  .portada .typed-t {
+    opacity: 1;
+    animation: SlideTop 1s ease forwards;
+    animation-delay: 0.7s;
+  }
+  .portada span {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .portada a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 1em 2.7em;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid #96E022;
+    background: linear-gradient(to right, rgba(150, 224, 34, 0.1) 1%, transparent 40%, transparent 60%, rgba(150, 224, 34, 0.1) 100%);
+    box-shadow: inset 0 0 10px rgba(150, 224, 34, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
+    color: #fff;
+  }
+  .portada a:hover {
+    color: #96E022;
+    box-shadow: inset 0 0 10px rgba(150, 224, 34, 0.6), 0 0 9px 3px rgba(150, 224, 34, 0.2);
+    box-shadow: 0 0 20px #96E022;
+  }
+  .portada h3 {
+    font-size: 2.4rem;
+    padding: 1.6rem 0;
+  }
+  
+  @keyframes floatImage{
+    0%{
+        transform: translateY(0);
+      }
+      50%{
+        transform: translateY(-24px);
+      }  
+      100%{
+        transform: translateY(0);
+      }
+}
+
+    @keyframes zoomIn{
+      0%{
+        transform: scale(0);
+        opacity: 0;
+      }
+      100%{
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
