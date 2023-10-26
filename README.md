@@ -7,7 +7,7 @@ Portafolio Diseñador y Desarrollador Web Alfredo Recinos - Costa Rica
 
 Tecnologías:
 - HTML
-- Css
+- CSS
 - JavaScript
 - Bootstrap 5
 
