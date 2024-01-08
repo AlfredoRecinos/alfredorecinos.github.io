@@ -56,7 +56,7 @@ window.addEventListener('scroll', scrollUp)
 
 // Texto animado con JS
 var typed = new Typed(".multiple-text", {
-  strings: ["Diseñador UX/UI", "Desarrollador Frontend", "Diseñador Web", "Diseñador Gráfico"],
+  strings: [ "Diseñador Publicitario", "Diseñador Web", "Diseñador UI", "Desarrollador Frontend" ],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
